@@ -9,8 +9,3 @@ def pytest_make_parametrize_id(val):
 @pytest.fixture
 def collector():
     return BooksCollector()
-
-
-@pytest.fixture
-def le_petit_prince():
-    return 'Маленький Принц'
